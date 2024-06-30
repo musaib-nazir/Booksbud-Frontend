@@ -1,0 +1,133 @@
+
+.graph-containers{
+    margin-left: 0px;
+    margin-top: -100px;
+    display: flex;
+flex-direction: column;
+position: relative;
+min-height: 100vh;
+    >.graphs{
+
+
+        margin-left: -100px;
+        margin-top: -100px;
+        display: flex;
+        
+        
+        
+        
+            >.bar{
+        
+        
+                min-height: 100vh;
+                
+                display: flex;
+                
+                
+                justify-content: center;
+                
+                align-items: center;
+                margin-right: 200px;
+                
+                
+                >.Component{
+                
+              
+                height: 550px;
+                
+                width: 900px;
+                
+                border: 1px solid black;
+                border-radius: 10px;
+                box-shadow: 1px 1px 10px black;
+                background-color:   
+                
+                
+                #9d7d5600;
+                }
+                
+                }
+               > .line{
+                
+                
+                min-height: 100vh;
+                
+                display: flex;
+                
+                
+                justify-content: center;
+                
+                align-items: center;
+                
+                
+                
+                >.Component{
+                
+                
+                height: 300px;
+                
+                width: 500px;
+                margin-top: 250px;
+                border: 1px solid black;
+                border-radius: 10px;
+                box-shadow: 1px 1px 10px black;
+                
+                }
+                
+                }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        }
+
+
+
+>.horizontal-bar{
+position: absolute;
+    width: 100px;
+color: black;
+top: 800px;
+margin-left: 700px;
+right: 300px;
+
+>.Component{
+
+
+height: 200px;
+
+      color: black;          
+width: 300px;
+
+border: 1px solid black;
+border-radius: 10px;
+box-shadow: 1px 1px 10px black;
+
+}
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

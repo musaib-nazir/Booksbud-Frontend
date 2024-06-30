@@ -1,0 +1,65 @@
+$BgColor1: #9d7d56;
+$BgColor2: #c09d73;
+$BgColor3: #e4c59e;
+
+
+
+.adminusers {
+display:flex ;
+
+min-height: 100vh;
+justify-content: center;
+align-items: center;
+
+
+    >.table-container {
+        width: 70vw;
+        border-radius: 10px;
+        >h1{
+
+
+margin-bottom: 65px;
+
+        }
+      
+     
+      >.Table {
+     border-radius: 10px;
+       > table {
+        table-layout:fixed
+        ;
+          width: 100%;
+          border-radius: 10px;
+   border: 1px solid $BgColor2;
+   box-shadow: 1px 1px 20px black;
+         > thead {
+           > tr {
+             > th {
+                padding: 10px;
+                background-color: $BgColor3;
+                border: 1px solid $BgColor2;
+                text-align: left;
+                border-radius: 10px;
+              }
+            }
+          }
+  
+         > tbody {
+          >  tr {
+              >td {
+                padding: 10px;
+                border: 1px solid $BgColor1;
+                text-align: left;
+                border-radius: 10px;
+              }
+  
+              &:hover {
+                background-color: #f1f1f1;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

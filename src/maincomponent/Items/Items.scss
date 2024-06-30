@@ -1,0 +1,49 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$BgColor1:   #9d7d56;
+$BgColor2:    #c09d73;
+$BgColor3:     #E4C59E;
+      
+
+
+
+
+.main-items {
+
+  min-height: 90vh;
+  > .items {
+    display: flex;
+    justify-content: center;
+
+    > .item-cards {
+      margin-left: 150px;
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+
+      > .card {
+        border: 1px solid $BgColor2;
+        padding: 20px;
+        text-align: center;
+        width: 370px;
+        margin: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+        background-color: $BgColor2;
+        min-height:650px ;
+      }
+    }
+  }
+}

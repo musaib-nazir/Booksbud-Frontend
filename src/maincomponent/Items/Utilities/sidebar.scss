@@ -1,0 +1,70 @@
+.admin-side{
+    position: fixed;
+border: 1px solid #5e554a36;
+height: 100vh;
+width: 12%;
+padding: 0%;
+display: flex;
+align-items: start;
+>.adminprofile{
+    margin-top: 200px;
+   margin-left: -10px;
+>span{
+background-color: #c09d737b;
+    box-shadow: 1px 1px 10px #5e554a36;
+display: flex;
+font-size: 20px;
+margin-left: 20px;
+align-items: center;
+text-align: center;
+border: 1px solid#9d7d56 ;
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 10px;
+>p{
+
+margin-left: 10px;
+margin-top: 5px;
+}
+}
+
+
+}
+>ul{
+
+position: absolute;
+left:-15px;
+margin-top: 300px;
+>li{
+
+    color:  #322C2B;
+   margin-top: 30px;
+   
+list-style: none;
+font-size: 20px;
+width: 300px;
+>button{margin-right: 0px;
+  display: inline;
+  color: #322C2B;
+outline: none;
+background: rgba(255, 228, 196, 0);
+border: none;
+font-size: 20px;
+width: 200px;
+text-align: start;
+&:hover{
+
+cursor: pointer;
+
+
+}
+
+}
+
+}
+
+}
+
+}
