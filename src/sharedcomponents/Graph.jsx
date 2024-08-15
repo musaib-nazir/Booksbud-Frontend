@@ -64,7 +64,7 @@ const Graph = () => {
         pointHoverBorderWidth: 2,
         pointRadius: 1,
         pointHitRadius: 10,
-        data: [65, 59, 80, 81, 56, 55, 50],
+        data: [65, 59, 12,58,96, 50],
       },
     ],
   };

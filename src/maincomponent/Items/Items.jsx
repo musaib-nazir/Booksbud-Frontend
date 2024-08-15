@@ -9,7 +9,31 @@ const data = [
     name: "harry potter",
     author: "harry bhai",
     price: 300,
-    imageUrl: "abc",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtFKRzqIPBTYkse7NKIPTjw0ggQB02c636StmC1mONyQwec4x1",
+  },
+  {
+    name: "harry potter",
+    author: "harry bhai",
+    price: 300,
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtFKRzqIPBTYkse7NKIPTjw0ggQB02c636StmC1mONyQwec4x1",
+  },
+  {
+    name: "harry potter",
+    author: "harry bhai",
+    price: 300,
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtFKRzqIPBTYkse7NKIPTjw0ggQB02c636StmC1mONyQwec4x1",
+  },
+  {
+    name: "harry potter",
+    author: "harry bhai",
+    price: 300,
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtFKRzqIPBTYkse7NKIPTjw0ggQB02c636StmC1mONyQwec4x1",
+  },
+  {
+    name: "harry potter",
+    author: "harry bhai",
+    price: 300,
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtFKRzqIPBTYkse7NKIPTjw0ggQB02c636StmC1mONyQwec4x1",
   },
   {
     name: "harry potter",
@@ -21,37 +45,13 @@ const data = [
     name: "harry potter",
     author: "harry bhai",
     price: 300,
-    imageUrl: "abc",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtFKRzqIPBTYkse7NKIPTjw0ggQB02c636StmC1mONyQwec4x1",
   },
   {
     name: "harry potter",
     author: "harry bhai",
     price: 300,
-    imageUrl: "abc",
-  },
-  {
-    name: "harry potter",
-    author: "harry bhai",
-    price: 300,
-    imageUrl: "abc",
-  },
-  {
-    name: "harry potter",
-    author: "harry bhai",
-    price: 300,
-    imageUrl: "abc",
-  },
-  {
-    name: "harry potter",
-    author: "harry bhai",
-    price: 300,
-    imageUrl: "abc",
-  },
-  {
-    name: "harry potter",
-    author: "harry bhai",
-    price: 300,
-    imageUrl: "abc",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtFKRzqIPBTYkse7NKIPTjw0ggQB02c636StmC1mONyQwec4x1",
   },
 ];
 
@@ -63,10 +63,15 @@ const Items = () => {
           <div className="item-cards">
             {data.map((item) => (
               <div className="card">
-                <span> {item.name}</span>
-                <img src={item.imageUrl} alt="" />
-                <span> {item.author}</span>
-                <span> {item.price}</span>
+                  <img src={item.imageUrl} alt="image" />
+                <h1> {item.name}</h1>
+              
+             
+                <strong style={{color:"green" ,fontSize:"20px"}}> ₹{item.price}</strong>
+
+
+                <button>Buy now</button>
+
               </div>
             ))}
           </div>

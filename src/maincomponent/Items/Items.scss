@@ -43,7 +43,31 @@ $BgColor3:     #E4C59E;
         position: relative;
         background-color: $BgColor2;
         min-height:650px ;
+        >img{
+margin-bottom: 10px;
+height: 450px;
+
+
+        }
+        >button{
+margin-top: 10px;
+          background-color: #af8260;
+  
+          color: #322c2b;
+          width: 97px;
+          border: 2px solid #322c2b;
+          padding: 10px;
+          border-radius: 10px;
+          font-weight: 700;
+          margin-left: 120px;
+          &:hover {
+            background-color: #cda282;
+            border: 3px solid white;
+          }
+        }
+        
       }
+
     }
   }
 }
